@@ -88,7 +88,6 @@ class CanvasJob {
         canvas.appendChild(this.newCell(x, y));
         --y;
       }
-      console.log(x);
       --x;
     }
 
