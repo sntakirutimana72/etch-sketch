@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .hidden {
   display: none;
 }
