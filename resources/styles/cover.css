@@ -1,0 +1,29 @@
+#cover {
+  min-height: 100vh;
+  margin: 0 20px;
+  gap: 24px;
+
+  & h1 {
+    margin: 0;
+    font-size: 70px;
+    font-weight: 600;
+    max-width: fit-content;
+    background-image: linear-gradient(to right, var(--blueish) 30%, rgba(0, 255, 136, 0.6) 60%, rgba(112, 97, 8, 0.3) 90%);
+  }
+
+  & p {
+    margin: 0;
+    font-size: 28px;
+    color: var(--darkish-3x);
+  }
+
+  & a {
+    max-width: fit-content;
+    text-align: center;
+    font-size: 28px;
+    padding: 14px 30px;
+    border-radius: 10px;
+    color: var(--light);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.6) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  }
+}

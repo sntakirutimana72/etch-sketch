@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../index.css">
+  <title>Etch-A-Sketch: Canvas</title>
+</head>
+
+<body>
+  <div id="canvas" class="flex flex-col">
+    <header>
+      <nav class="flex justify-between items-center">
+        <a href="../index.html" class="text-gradient">Etcha Sketch</a>
+        <button id="toggle-nav" class="flex flex-col">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+    <div id="materials" class="hidden">
+      <button id="rescale" title="erase" class="flex items-center material-option">
+        <img src="../resources/icons/resize.png" alt="Resize Grid" />
+        <span>Resize Grid</span>
+      </button>
+      <button id="erase" title="erase" class="flex items-center material-option">
+        <img src="../resources/icons/eraser.png" alt="erase" />
+        <span>Erase</span>
+      </button>
+    </div>
+    <main class="flex justify-center"></main>
+  </div>
+
+  <script src="../resources/js/selectors.js"></script>
+  <script src="../resources/js/canvas.js"></script>
+  <script src="../index.js"></script>
+</body>
+
+</html>
